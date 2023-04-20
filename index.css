@@ -7,15 +7,11 @@ html, body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: minmax(20px, 1fr) minmax(20px, 1fr) minmax(20px, 1fr);
     grid-template-areas: 
         "topleft topleft topright"
-        /* "blank blank blank" */
         "secondleft secondleft secondright"
-        /* "blanka blanka blanka" */
         "thirdleft thirdright thirdright"
-        /* "blankb blankb blankb" */
         "bottomleft bottomright bottomright";
     grid-row-gap: 12%;
 }
